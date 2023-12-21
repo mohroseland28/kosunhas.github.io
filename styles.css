@@ -407,121 +407,38 @@ color: #1A1A1A;
     margin: 0.5rem;
 }
 
-/*blog section*/
-.blog {
+footer {
     text-align: center;
 }
 
-.blog h6 {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.5rem 1rem;
-    background-color: rgba(208, 49, 45, 0.10);
-    border-radius: 1rem;
+footer .nav-logo {
+    padding-top: 1rem;
 }
 
-.blog h3 {
-    color: #1A1A1A;
-    margin: 1rem;
-
-}
-
-.blog .blog-container {
-    display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1rem;
-}
-
-.blog .blog-container .blog-card {
-    width: 20rem;
-    height: 25rem;
-        margin: 0.5rem;
-        box-shadow:
-            8px 0 10px -6px rgba(0, 0, 0, 0.1),
-            -8px 0 10px -6px rgba(0, 0, 0, 0.1),
-            0 8px 10px -6px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        background-color: #ffff;
-}
-
-.blog .blog-container .blog-card .blog-img {
-    position: relative;
-        height: 15rem;
-        width: 100%
-}
-
-.blog .blog-container .blog-card .blog-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.blog-info {
-    padding: 1rem;
-}
-
-.blog-info .blog-tag {
+footer .footer-menu a {
     color: #4A4A4A;
     font-size: 0.8rem;
-    text-align: left;
+    margin: 1rem 0.5rem;
 }
 
-.blog-info .blog-title {
+footer .social-media {
+    margin: 0.5rem;
+}
+
+footer .social-media a {
     color: #1A1A1A;
-    margin: 1rem 0;
-
+    margin:  0.5rem;
 }
 
-.blog-info div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.blog-info div p {
-    color: #4A4A4A;
-    font-size: 0.8rem;
-}
-
-.blog-info div a {
-    color: #ffff;
-    background-color: #D0312D;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-
-}
-
-.blog-info div a:hover {
+footer .hak-cipta  {
+    margin-bottom: 1rem;
     color: #1A1A1A;
-    background-color: #f2f6f7;
-    transition: 0.3s;
 }
-
-.blog .blog-button {
-    margin-bottom: 2rem;
-}
-
-.blog .blog-button a {
-    color: #ffff;
-    background-color: #D0312D;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-}
-
-.blog .blog-button a:hover {
-    color: #1A1A1A;
-    background-color: #f2f6f7;
-    transition: 0.3s;
-}
-
 
 /*tablet*/
 @media (max-width: 768px) {
     html {
-        font-size: 62.6%;
+        font-size: 62.5%;
     }
 }
 
@@ -529,7 +446,12 @@ color: #1A1A1A;
 @media (max-width: 450px) {
     html {
         font-size: 55%;
+        
     }
+
+   .nav-extra ul li img {
+       transform: scale(0.55);
+   }
 
         #hamburger {
             display: block;
