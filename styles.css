@@ -521,14 +521,14 @@ color: #1A1A1A;
 /*tablet*/
 @media (max-width: 768px) {
     html {
-        font-size: 95%;
+        font-size: 62.6%;
     }
 }
 
 /*hp*/
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     html {
-        font-size: 90%;
+        font-size: 55%;
     }
 
         #hamburger {
